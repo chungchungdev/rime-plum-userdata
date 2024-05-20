@@ -6,6 +6,8 @@ My rime customization files
 # Setup
 * Linux
   ```
+  cd plum
+  bash rime-install gkovacs/rime-japanese
   cd .config/ibus/rime
   git init
   git remote add origin https://github.com/chungchungdev/rime-plum-userdata.git

@@ -3,8 +3,10 @@ My rime customization files
 
 <br/>
 
-# Setup
-* Linux
+# Linux setup
+- Install [rime](https://github.com/rime/home/wiki/RimeWithIBus) and [plum](https://github.com/rime/plum)
+
+- Install input and clone custom yaml
   ```
   cd plum
   bash rime-install gkovacs/rime-japanese

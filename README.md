@@ -15,11 +15,20 @@ My rime customization files
 4. Install Japanese input
    ```
    cd plum
+   
+   # ibus
    bash rime-install gkovacs/rime-japanese
+
+   # fcitx5
+   rime_frontend=fcitx5-rime bash rime-install gkovacs/rime-japanese
    ```
 5. Clone custom yaml
    ```
+   # ibus
    cd; cd .config/ibus/rime
+   # fcitx5
+   cd; cd ~/.local/share/fcitx5/rime
+   
    git init
    git remote add origin https://github.com/chungchungdev/rime-plum-userdata.git
    git pull origin master
@@ -31,6 +40,6 @@ My rime customization files
 <br/>
 
 # Location for the files
-* Linux【中州韻】 ```~/.config/ibus/rime/```
+* Linux【中州韻】 ```~/.config/ibus/rime/```/```~/.local/share/fcitx5/rime/```
 * Windows【小狼毫】 ```%APPDATA%\Rime```
 * MacOS【鼠鬚管】 ```~/Library/Rime/```
